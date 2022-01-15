@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&display=swap');
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+p{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+.card{
+    border-radius: 20px;
+    margin: 100px auto;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+}
+#equi{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+h2{
+    margin-left: 20px;
+    color: hsl(0, 0%, 100%);
+
+}
+.card > p{
+    margin-left: 20px;
+}
+.desc{
+    display: flex;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.eth{
+    display: flex;
+    align-items: center;
+}
+.eth > img{
+    height: 20px;
+    margin-right: 5px;
+}
+.eth > p{
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+}
+.date{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.date >img{
+    height: 20px;
+    margin-right: 5px;
+}
+
+hr{
+    border: 1px solid hsl(215, 51%, 70%);
+    width: 300px;
+    margin-bottom: 20px;
+}
+.creator{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+.creator >img{
+    width: 40px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.creator>p>span{
+    color: hsl(0, 0%, 100%);
+}
